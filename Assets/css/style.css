@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: #3fbabf !important;
+}
+
+.hero {
+    height: calc(100vh - 114px);
+}
+
+.h-carousel-item {
+    height: calc(100vh - 114px);
+}
+
+.hero .caption {
+    background-color: rgba(255, 255, 255, 0.712);
+    border-top: 5px solid #3fbabf !important;
+    border-color: #3fbabf !important;
+    height: max-content !important;
+}
+
+.line {
+    width: 50px;
+    height: 3px;
+}
+
+.carousel-target {
+    height: 10px !important;
+    width: 10px !important;
+    background-color: #3fbabf !important;
+}
+
+.bg-green {
+    background-color: #3fbabf !important;
+}
+
+.bg-baby-green {
+    background-color: #f7fdfd !important;
+}
+
+.service .circle1 {
+    width: 30px !important;
+    height: 30px;
+}
+
+footer .circle11 {
+    width: 30px !important;
+    height: 30px;
+}
+
+.green {
+    color: #3fbabf !important;
+}
+
+.contact .circule2 {
+    width: 50px !important;
+    height: 50px;
+    border: 2px dotted #3fbabf;
+}
+
+.card-list {
+    width: 12rem !important;
+}
+
+.nav-pills {
+    --bs-nav-pills-link-active-color: #fff;
+    --bs-nav-pills-link-active-bg: #fff !important;
+    border-right: 1px solid rgb(186, 183, 183);
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    border-right: 2.5px solid #3fbabf;
+    border-radius: 2px;
+    color: #3fbabf !important;
+}
+
+.service .row {
+    --bs-gutter-x: 0rem !important;
+}
+
+footer .footer-copy {
+    width: 350px;
+}
+
+nav button:hover,
+.hero button:hover,
+.make-appointment button:hover,
+.contact button:hover {
+    background-color: #3fbbbfb3 !important;
+}
+
+i:hover {
+    font-size: larger;
+}
